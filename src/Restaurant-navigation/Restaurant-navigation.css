@@ -1,0 +1,28 @@
+.restaurant-navigation {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  width: 1124px;
+}
+
+.restaurant-navigation__nav {
+  border-bottom: 1px solid rgba(117, 117, 117, 0.2);
+  height: 80px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.restaurant-navigation__item {
+  font-family: var(--main-font);
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--gray-font);
+  text-decoration: none;
+  margin-right: 40px;
+}
+
+.restaurant-navigation__item:hover {
+  color: var(--green);
+}

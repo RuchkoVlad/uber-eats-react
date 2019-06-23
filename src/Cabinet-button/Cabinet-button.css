@@ -1,0 +1,19 @@
+.cabinet-button {
+  width: 80px;
+  height: 40px;
+  box-sizing: border-box;
+  border: 1px solid var(--border-btn);
+  border-radius: 2px;
+}
+
+.cabinet-button__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.cabinet-button--black {
+  background: var(--color-btn);
+  color: var(--white);
+  border: none;
+  margin: 0 16px 0 27px;
+}
