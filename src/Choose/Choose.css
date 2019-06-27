@@ -30,6 +30,6 @@
   width: 1144px;
 }
 
-.card__time  {
-  padding-bottom: 20px;
+.choose__router-link {
+  text-decoration: none;
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Cabinet-button.css';
+import './CabinetButton.css';
 import basket from "./img/basketbasket.svg";
 
 export function CabinetButton() {

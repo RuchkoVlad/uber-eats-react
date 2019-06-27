@@ -1,6 +1,6 @@
 import React from 'react';
-import './Restaurant-choose.css'
-import {MenuCard} from "../Menu-card/Menu-card";
+import './RestaurantChoose.css'
+import {MenuCard} from "../MenuCard/MenuCard";
 
 export function RestaurantChoose() {
     return (

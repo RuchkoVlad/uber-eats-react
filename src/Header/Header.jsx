@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import {CabinetButton} from "../Cabinet-button/Cabinet-button";
+import {CabinetButton} from "../CabinetButton/CabinetButton";
 import logo from './img/logologo1.svg';
 
 export function Header() {

@@ -1,9 +1,10 @@
 import React from 'react';
 import './Resataurant.css';
 import {Header} from "../Header/Header";
-import {PresentationCard} from "../Presentation-card/Presentation-card";
-import {RestaurantNavigation} from "../Restaurant-navigation/Restaurant-navigation";
-import {RestaurantChoose} from "../Restaurant-choose/Restaurant-choose";
+import {PresentationCard} from "../PresentationCard/PresentationCard";
+import {RestaurantNavigation} from "../RestaurantNavigation/RestaurantNavigation";
+import {RestaurantChoose} from "../RestaurantChoose/RestaurantChoose";
+
 
 export function Restaurant() {
     return (

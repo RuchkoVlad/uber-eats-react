@@ -1,5 +1,5 @@
 import React from 'react'
-import './Presentation-card.css'
+import './PresentationCard.css'
 
 export function PresentationCard() {
     return (

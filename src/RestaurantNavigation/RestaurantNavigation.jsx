@@ -1,5 +1,5 @@
 import React from 'react';
-import './Restaurant-navigation.css';
+import './RestaurantNavigation.css';
 
 export function RestaurantNavigation() {
     return (

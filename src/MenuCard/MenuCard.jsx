@@ -1,5 +1,5 @@
 import React from 'react'
-import './Menu-card.css'
+import './MenuCard.css'
 import dish from './img/dish.png'
 
 export function MenuCard() {

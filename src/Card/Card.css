@@ -26,6 +26,12 @@
   line-height: 21px;
   color: var(--font-color);
 }
-.router-link  {
-  text-decoration: none;
+
+.card__time  {
+  padding-bottom: 20px;
+}
+
+.card__img  {
+  width: 366px;
+  height: 256px;
 }
