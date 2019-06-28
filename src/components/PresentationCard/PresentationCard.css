@@ -1,4 +1,4 @@
-.presentation-card__background {
+.presentation-card {
   margin-top: 72px;
   background: url("img/pushkin.png") no-repeat;
   background-size: cover;
@@ -8,7 +8,7 @@
   justify-content: center;
 }
 
-.presentation-card {
+.presentation-card__background {
   width: 389px;
   height: 204px;
   background: var(--white);

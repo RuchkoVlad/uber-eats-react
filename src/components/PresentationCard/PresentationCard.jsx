@@ -3,9 +3,9 @@ import './PresentationCard.css'
 
 export function PresentationCard() {
     return (
-        <div className="presentation-card__background">
+        <div className="presentation-card">
             <div className="presentation-card__wrapper">
-                <div className="presentation-card">
+                <div className="presentation-card__background">
                     <span className="presentation-card__title">Трактир «Пушкин»</span>
                     <div className="presentation-card__footer">
                         <span className="presentation-card__price">₴₴₴ • Европейская</span>
