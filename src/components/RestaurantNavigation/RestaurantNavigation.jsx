@@ -4,8 +4,8 @@ import './RestaurantNavigation.css';
 export function RestaurantNavigation() {
     return (
         <>
-            <nav className="restaurant-navigation__nav">
-                <ul className="restaurant-navigation">
+            <nav className="restaurant-navigation">
+                <ul className="restaurant-navigation__nav">
                     <li><a className="restaurant-navigation__item" href="javascript:void(0)">Закуски</a></li>
                     <li><a className="restaurant-navigation__item" href="javascript:void(0)">Салаты</a></li>
                     <li><a className="restaurant-navigation__item" href="javascript:void(0)">Супы</a></li>

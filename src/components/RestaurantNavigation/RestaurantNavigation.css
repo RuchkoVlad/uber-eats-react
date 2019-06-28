@@ -1,4 +1,4 @@
-.restaurant-navigation {
+.restaurant-navigation__nav {
   list-style: none;
   padding: 0;
   display: flex;
@@ -6,7 +6,7 @@
   width: 1124px;
 }
 
-.restaurant-navigation__nav {
+.restaurant-navigation {
   border-bottom: 1px solid rgba(117, 117, 117, 0.2);
   height: 80px;
   justify-content: center;
