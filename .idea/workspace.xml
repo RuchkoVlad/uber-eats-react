@@ -74,10 +74,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Restaurant/info.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="51">
               <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
             </state>
           </provider>
@@ -116,9 +116,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -169,7 +173,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -218,13 +222,15 @@
         <option value="$PROJECT_DIR$/src/components/Card/Card.jsx" />
         <option value="$PROJECT_DIR$/src/components/CabinetButton/CabinetButton.jsx" />
         <option value="$PROJECT_DIR$/src/components/CabinetButton/CabinetButton.css" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="789" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="-31" />
+    <option name="y" value="131" />
+    <option name="width" value="943" />
+    <option name="height" value="520" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -238,6 +244,38 @@
             <path>
               <item name="uber-eats-react" type="b2602c69:ProjectViewProjectNode" />
               <item name="uber-eats-react" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="uber-eats-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="uber-eats-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="uber-eats-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="uber-eats-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="uber-eats-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="uber-eats-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Card" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="uber-eats-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="uber-eats-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Choose" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="uber-eats-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="uber-eats-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Restaurant" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -313,18 +351,17 @@
       <workItem from="1561636915657" duration="159000" />
       <workItem from="1561638621482" duration="821000" />
       <workItem from="1561647882834" duration="1975000" />
-      <workItem from="1561730166035" duration="1355000" />
+      <workItem from="1561730166035" duration="1586000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56208000" />
+    <option name="totallyTimeSpent" value="56439000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="789" extended-state="0" />
-    <editor active="true" />
+    <frame x="-31" y="131" width="943" height="520" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19309373" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29718006" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -339,7 +376,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49960285" weight="0.32876712" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50039715" side_tool="true" weight="0.269863" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49960285" visible="true" weight="0.3830703" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49960285" visible="true" weight="0.62383175" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -464,16 +501,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Choose/Choose.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Search/Search.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -522,13 +549,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Restaurant/info.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/PresentationCard/PresentationCard.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -574,7 +594,28 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Choose/Choose.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Restaurant/info.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
