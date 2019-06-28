@@ -46,7 +46,7 @@
 }
 
 .header__label:before {
-  content: url("./img/location.svg");
+  content: url("img/location.svg");
   position: absolute;
   top: 12px;
   left: 12px;

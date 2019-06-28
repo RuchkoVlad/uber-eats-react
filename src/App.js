@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-import {Header} from "./Header/Header";
-import {Choose} from "./Choose/Choose";
-import {Footer} from "./Footer/Footer";
+import {Header} from "./components/Header/Header";
+import {Choose} from "./components/Choose/Choose";
+import {Footer} from "./components/Footer/Footer";
 import {BrowserRouter as Router, Route} from 'react-router-dom';
-import {Restaurant} from "./Restaurant/Restaurant";
+import {Restaurant} from "./components/Restaurant/Restaurant";
 
 function App() {
     return (

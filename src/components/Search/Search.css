@@ -13,7 +13,7 @@
 }
 
 .search__label:before {
-  content: url('./img/shapesearch.svg');
+  content: url('img/shapesearch.svg');
   position: absolute;
   top: 115px;
 }
