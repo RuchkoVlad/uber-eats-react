@@ -20,7 +20,8 @@
     "eject": "react-scripts eject",
     "rename-index": "node -e \"require('fs').rename('./build/index.html', './build/200.html', (err) => { console.log(err ? err : 'File renamed!') })\"",
     "predeploy": "npm run build && npm run rename-index",
-    "deploy": "cd build && surge --domain uber-eats-RuchkoVlad.surge.sh"
+    "deploy": "cd build && surge --domain uber-eats-RuchkoVlad.surge.sh",
+    "format": "prettier --write \"src/**/*.{js,jsx,css}\""
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -38,6 +39,20 @@
     ]
   },
   "devDependencies": {
+    "husky": "^2.7.0",
+    "lint-staged": "^8.2.1",
+    "prettier": "1.18.2",
     "surge": "^0.21.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx,css}": [
+      "prettier --write",
+      "git add"
+    ]
   }
 }
