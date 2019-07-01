@@ -1,4 +1,4 @@
-html  {
+html {
   --main-font: Roboto, sans-serif;
   --border-btn: #e0e0e0;
   --color-btn: #262626;
@@ -10,6 +10,6 @@ html  {
   --lightgray: lightgray;
 }
 
-body  {
+body {
   margin: 0;
 }

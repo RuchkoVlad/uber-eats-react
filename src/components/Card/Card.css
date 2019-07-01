@@ -27,11 +27,11 @@
   color: var(--font-color);
 }
 
-.card__time  {
+.card__time {
   padding-bottom: 20px;
 }
 
-.card__img  {
-  width: 366px;
+.card__img {
+  object-fit: cover;
   height: 256px;
 }

@@ -7,7 +7,7 @@
 
 .choose__title {
   font-family: var(--main-font);
-  font-size: 22px;
+  font-size: 88px;
   line-height: 34px;
   color: var(--font-color);
   align-self: flex-start;
@@ -21,7 +21,7 @@
   margin-bottom: 80px;
 }
 
-.choose__cards{
+.choose__cards {
   display: flex;
   justify-content: space-between;
   list-style: none;

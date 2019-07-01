@@ -1,4 +1,4 @@
-.cabinet-button__wrapper  {
+.cabinet-button__wrapper {
   width: 80px;
   height: 40px;
   box-sizing: border-box;
@@ -6,7 +6,7 @@
   border-radius: 2px;
 }
 
-.cabinet-button{
+.cabinet-button {
   display: flex;
   align-items: center;
 }
@@ -16,4 +16,9 @@
   color: var(--white);
   border: none;
   margin: 0 16px 0 27px;
+  width: 80px;
+  height: 40px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
 }
