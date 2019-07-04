@@ -1,9 +1,7 @@
 export const restaurantMenu = {
   uuid: "6585ad84-b9b0-4ab0-be54-f22657cd29bc",
   title: "Musafir (вул. Саксаганського)",
-  categories: [
-    { uuid: "MiddleEastern", name: "Близькосхідна", keyName: "MiddleEastern" }
-  ],
+  categories: "Близькосхідна",
   sections: [
     {
       uuid: "33175ca1-ac0e-42c9-ae83-3ceb6e6e5171",
@@ -172,7 +170,7 @@ export const restaurantMenu = {
     ratingCount: "500+"
   },
   largeImageUrl:
-    "https://uber-eats-mates.herokuapp.com/images/48f30dc6-245f-4257-9b6f-8fc00c510fd9.jpg.jpg",
+    "https://uber-eats-mates.herokuapp.com/images/48f30dc6-245f-4257-9b6f-8fc00c510fd9.jpg",
   items: {
     "6f5a0c7a-b401-4f78-ac3b-0de5cea3fc1c": {
       uuid: "6f5a0c7a-b401-4f78-ac3b-0de5cea3fc1c",

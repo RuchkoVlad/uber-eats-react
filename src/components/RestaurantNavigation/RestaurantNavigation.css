@@ -12,6 +12,10 @@
   justify-content: center;
   display: flex;
   align-items: center;
+  position: sticky;
+  top: 71px;
+  background: var(--white);
+  opacity: 0.95;
 }
 
 .restaurant-navigation__item {

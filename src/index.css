@@ -7,9 +7,10 @@ html {
   --gray-font: #626262;
   --hover: #f9f9f9;
   --green: #327430;
-  --lightgray: lightgray;
+  --lightgray: lightgray; scroll-behavior: smooth;
 }
 
 body {
   margin: 0;
+  scroll-behavior: smooth;
 }

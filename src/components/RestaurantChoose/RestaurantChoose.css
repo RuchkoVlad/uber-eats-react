@@ -1,4 +1,4 @@
-.choose__first-line {
+.restaurant-choose {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
@@ -6,4 +6,24 @@
   justify-content: space-between;
   width: 1124px;
   margin: auto;
+}
+
+.restaurant-choose__type  {
+  display: flex;
+  flex-direction: column;
+}
+
+.restaurant-choose__dish  {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1124px;
+}
+
+.restaurant-choose__title {
+  font-family: var(--main-font);
+  font-size: 22px;
+  line-height: 100px;
+  padding-top: 150px;
+  margin-top: -150px;
 }
