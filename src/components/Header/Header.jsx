@@ -3,7 +3,8 @@ import "./Header.css";
 import { CabinetButton } from "../CabinetButton/CabinetButton";
 import logo from "./img/logologo1.svg";
 
-export function Header() {
+export function Header(props) {
+  console.log(typeof props.open);
   return (
     <div className="header">
       <div className="header__wrapper">
@@ -21,7 +22,7 @@ export function Header() {
             />
           </label>
         </div>
-        <CabinetButton />
+        <CabinetButton open={props.open}/>
       </div>
     </div>
   );

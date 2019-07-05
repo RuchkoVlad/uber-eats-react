@@ -8,12 +8,12 @@
   margin: auto;
 }
 
-.restaurant-choose__type  {
+.restaurant-choose__type {
   display: flex;
   flex-direction: column;
 }
 
-.restaurant-choose__dish  {
+.restaurant-choose__dish {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
