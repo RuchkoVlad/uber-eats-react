@@ -34,4 +34,11 @@
 .card__img {
   object-fit: cover;
   height: 256px;
+  transition: 0.4s;
+}
+
+.card__img:hover {
+  margin-top: -10px;
+  position: relative;
+  margin-bottom: 10px;
 }

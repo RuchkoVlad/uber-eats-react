@@ -6,9 +6,11 @@ export function MenuCard(props) {
   let dishPhoto = restaurantMenu.items[props.id].imageUrl;
   return (
     <li>
-      <a href="javascript:void(0)" className="menu-card">
+      <a  href="javascript:void(0)" className="menu-card" onClick={() => {
+        props.order.push(restaurantMenu.items[props.id]);
+       console.log(props.order)}}>
         <div className="menu-card__left">
-          <span className="menu-card__title">
+          <span className="menu-card__title" >
             {restaurantMenu.items[props.id].title}
           </span>
           <span className="menu-card__consist">

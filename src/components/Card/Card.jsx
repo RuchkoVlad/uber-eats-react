@@ -5,7 +5,7 @@ export function Card(props) {
   return (
     <li className="card">
       <a href="" className=" card card__link">
-        <img className="card__img" src={props.imageUrl} alt="food_picture" />
+        <img className="card__img" src={props.imageUrl} alt={props.title} />
         <span className="card__restaurant">{props.title}</span>
         <span className="card__category">
           {props.priceBucket}{" "}

@@ -2,15 +2,17 @@ import React from "react";
 import "./Header.css";
 import { CabinetButton } from "../CabinetButton/CabinetButton";
 import logo from "./img/logologo1.svg";
+import { Link } from "react-router-dom";
 
 export function Header(props) {
-  console.log(typeof props.open);
   return (
     <div className="header">
       <div className="header__wrapper">
+        <Link to="/">
         <a href="#">
           <img src={logo} alt="logo" className="logo header__logo" />
         </a>
+        </Link>
         <div className="header__order-info">
           <button className="header__order-time">ASAP</button>
           <span className="header__span">to</span>
@@ -22,7 +24,7 @@ export function Header(props) {
             />
           </label>
         </div>
-        <CabinetButton open={props.open}/>
+        <CabinetButton open={props.open} />
       </div>
     </div>
   );
