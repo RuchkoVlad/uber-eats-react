@@ -3,6 +3,13 @@
   flex-direction: column;
   align-self: center;
   width: 1124px;
+
+}
+
+.choose__grid {
+  display: grid;
+  grid-template-columns: 366px 366px 366px ;
+  grid-column-gap: 20px;
 }
 
 .choose__title {

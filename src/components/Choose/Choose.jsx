@@ -13,6 +13,7 @@ export function Choose() {
         <span className="choose__title">Kyiv Restaurants</span>
 
         <ul className="choose__cards">
+            <div className="choose__grid">
           {restaurants.map(restaurant => {
             return (
               <Link to="/restaurant" className="choose__router-link">
@@ -27,6 +28,7 @@ export function Choose() {
               </Link>
             );
           })}
+            </div>
         </ul>
       </div>
     </div>
