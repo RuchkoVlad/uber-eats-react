@@ -5,7 +5,7 @@ import { restaurantMenu } from "./infoRestaurant";
 export function MenuCard(props) {
   let dishPhoto = restaurantMenu.items[props.id].imageUrl;
   return (
-    <li className="kek">
+    <li>
       <a
         href="javascript:void(0)"
         className="menu-card"
