@@ -4,6 +4,7 @@
   box-sizing: border-box;
   border: 1px solid var(--border-btn);
   border-radius: 2px;
+  background: var(--white);
 }
 
 .cabinet-button {

@@ -1,7 +1,6 @@
 import React from "react";
 import "./Basket.css";
 
-
 export function Basket(props) {
   return (
     <div className="basket">
@@ -14,22 +13,20 @@ export function Basket(props) {
                 fill="#1F1F1F"
               ></path>
             </svg>
-            <span className="basket__order-amount">
-              Ваш заказ
-            </span>
+            <span className="basket__order-amount">Ваш заказ</span>
             <a href="#" onClick={() => props.close(false)}>
-            <svg
-              width="24px"
-              height="24px"
-              fill="none"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="m19.5831 6.24931-1.8333-1.83329-5.75 5.83328-5.75-5.83328-1.8333 1.83329 5.8333 5.74999-5.8333 5.75 1.8333 1.8333 5.75-5.8333 5.75 5.8333 1.8333-1.8333-5.8333-5.75z"
-                fill="#1F1F1F"
-              ></path>
-            </svg>
+              <svg
+                width="24px"
+                height="24px"
+                fill="none"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="m19.5831 6.24931-1.8333-1.83329-5.75 5.83328-5.75-5.83328-1.8333 1.83329 5.8333 5.74999-5.8333 5.75 1.8333 1.8333 5.75-5.8333 5.75 5.8333 1.8333-1.8333-5.8333-5.75z"
+                  fill="#1F1F1F"
+                ></path>
+              </svg>
             </a>
           </div>
 
