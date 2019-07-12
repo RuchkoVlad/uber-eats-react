@@ -9,9 +9,9 @@ import {
 class ScrollToTop extends React.Component {
   componentDidUpdate(prevProps) {
     if (this.props.location.pathname !== prevProps.location.pathname) {
-      document.body.style.scrollBehavior = 'auto';
+      document.body.style.scrollBehavior = "auto";
       window.scrollTo(0, 0);
-      document.body.style.scrollBehavior = 'smooth';
+      document.body.style.scrollBehavior = "smooth";
     }
   }
 

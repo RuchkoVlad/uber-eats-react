@@ -15,7 +15,7 @@
   flex-direction: column;
 }
 
-.menu-card:hover {
+.menu-card__left:hover {
   background: var(--hover);
 }
 
@@ -47,4 +47,9 @@
   width: 160px;
   height: 160px;
   flex-shrink: 0;
+}
+
+.kek  {
+  flex-basis: 33%;
+  background: #3e9920;
 }

@@ -16,6 +16,7 @@
   content: url("img/shapesearch.svg");
   position: absolute;
   top: 115px;
+  cursor: pointer;
 }
 
 .search::placeholder {

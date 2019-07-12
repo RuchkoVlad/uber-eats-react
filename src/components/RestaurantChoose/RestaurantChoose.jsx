@@ -6,7 +6,7 @@ import { restaurantMenu } from "../MenuCard/infoRestaurant";
 export function RestaurantChoose(props) {
   return (
     <ul className="restaurant-choose">
-      {restaurantMenu.sections.map((section) => {
+      {restaurantMenu.sections.map(section => {
         return (
           <div className="restaurant-choose__type">
             <h4 className="restaurant-choose__title " id={`${section.title}`}>
@@ -14,8 +14,14 @@ export function RestaurantChoose(props) {
             </h4>
             <div key={section.title}>
               <div className="restaurant-choose__dish ">
-                {section.itemUuids.map((itemUuid) => {
-                  return <MenuCard key={itemUuid} id={itemUuid} order={props.order}/>;
+                {section.itemUuids.map(itemUuid => {
+                  return (
+                    <MenuCard
+                      key={itemUuid}
+                      id={itemUuid}
+                      order={props.order}
+                    />
+                  );
                 })}
               </div>
             </div>

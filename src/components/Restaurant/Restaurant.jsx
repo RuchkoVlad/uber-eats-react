@@ -4,12 +4,12 @@ import { PresentationCard } from "../PresentationCard/PresentationCard";
 import { RestaurantNavigation } from "../RestaurantNavigation/RestaurantNavigation";
 import { RestaurantChoose } from "../RestaurantChoose/RestaurantChoose";
 
-export function Restaurant(props) {
+export function Restaurant() {
   return (
     <div>
       <PresentationCard />
       <RestaurantNavigation />
-      <RestaurantChoose lol={props}/>
+      <RestaurantChoose />
     </div>
   );
 }
