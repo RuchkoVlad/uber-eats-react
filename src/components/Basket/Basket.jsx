@@ -2,6 +2,8 @@ import React from "react";
 import "./Basket.css";
 
 export function Basket(props) {
+  {console.log(props.orders)}
+  let sum = 0;
   return (
     <div className="basket">
       <div className="basket__wrapper">
@@ -31,34 +33,40 @@ export function Basket(props) {
           </div>
 
           <div className="basket__main">
-            <div className="basket__choose">
-              <select className="basket__select">
-                <option>Удалить</option>
-                <option selected>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-                <option>6</option>
-                <option>7</option>
-                <option>8</option>
-                <option>9</option>
-                <option>10</option>
-              </select>
-              <span className="basket__dish">Tombik Turkish з куркою</span>
-              {/*{props.orders.map( (order)=> {*/}
-              {/*  return(*/}
-              {/*      <span className="basket__price">440,00грн.{prop.price}</span>*/}
-              {/*  )*/}
-              {/*})}*/}
-            </div>
+              {props.orders.map((order)=> {
+                sum += order.price;
+              return(
+                  <div className="basket__choose">
+                    <select className="basket__select">
+                      <option>Удалить</option>
+                      <option selected>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                      <option>6</option>
+                      <option>7</option>
+                      <option>8</option>
+                      <option>9</option>
+                      <option>10</option>
+                    </select>
+
+                    <span className="basket__dish">{order.title}</span>
+                    <p>{props.orders.map((order)=> {
+                     return  order.count
+                    })}</p>
+                  <span className="basket__price">{order.price / 100},00грн.</span>
+                  </div>
+              )
+            })}
+
           </div>
         </div>
         <div className=" basket__payment">
-          <div className="basket__amount-dishes">4</div>
+          <div className="basket__amount-dishes">{props.orders.length}</div>
           <span className="basket__next-step">Далее: оплата</span>
           <span className="basket__price basket__price--payment">
-            440,00грн.
+            {sum / 100},00грн.
           </span>
         </div>
       </div>

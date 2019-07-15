@@ -19,7 +19,8 @@ export function RestaurantChoose(props) {
                     <MenuCard
                       key={itemUuid}
                       id={itemUuid}
-                      order={props.order}
+                      orders={props.orders}
+                      setOrders={props.setOrders}
                     />
                   );
                 })}

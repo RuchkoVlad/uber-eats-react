@@ -10,16 +10,15 @@ import { Basket } from "./components/Basket/Basket";
 
 function App() {
   const [clickBasket, setBasket] = useState(false);
-
+  let [orders, setOrders] = useState([]);
   return (
     <>
       <Router>
         <Header open={setBasket} />
-        {clickBasket && <Basket close={setBasket} />}
-
+        {clickBasket && <Basket close={setBasket} orders={orders} setOrders={setOrders}/>}
         <ScrollToTop>
           <Route path="/" exact component={Choose} />
-          <Route path="/restaurant" exact component={Restaurant} />
+          <Route path="/restaurant" exact component={() => <Restaurant orders={orders} setOrders={setOrders}/> } />
         </ScrollToTop>
       </Router>
       <Footer />
