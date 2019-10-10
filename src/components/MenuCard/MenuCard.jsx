@@ -29,8 +29,7 @@ export function MenuCard(props) {
     // если isInBasket !== -1 то рендерим зеленую
     return (
         <li>
-            <a
-                href="javascript:void(0)"
+            <button
                 className="menu-card"
                 onClick={
                     ()=> addToBasket()
@@ -55,7 +54,7 @@ export function MenuCard(props) {
                         alt=""
                     />
                 )}
-            </a>
+            </button>
         </li>
     );
 }

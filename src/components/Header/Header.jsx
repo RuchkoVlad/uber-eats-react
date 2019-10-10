@@ -9,9 +9,7 @@ export function Header(props) {
     <div className="header">
       <div className="header__wrapper">
         <Link to="/">
-          <a href="#">
             <img src={logo} alt="logo" className="logo header__logo" />
-          </a>
         </Link>
         <div className="header__order-info">
           <button className="header__order-time">ASAP</button>

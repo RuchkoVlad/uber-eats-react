@@ -7,9 +7,9 @@ export function CabinetButton(props) {
     <div className="cabinet-button">
       <button className="cabinet-button__wrapper">Sign In</button>
       <button className="cabinet-button cabinet-button--black">Register</button>
-      <a href="#" onClick={() => props.open(true)}>
+      <button onClick={() => props.open(true)}>
         <img src={basket} alt="basket" />
-      </a>
+      </button>
     </div>
   );
 }

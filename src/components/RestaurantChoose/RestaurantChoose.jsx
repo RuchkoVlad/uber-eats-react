@@ -8,13 +8,13 @@ export function RestaurantChoose(props) {
     <ul className="restaurant-choose">
       {restaurantMenu.sections.map(section => {
         return (
-          <div className="restaurant-choose__type">
+          <div className="restaurant-choose__type" key={section.title}>
             <h4 className="restaurant-choose__title " id={`${section.title}`}>
               {section.title}
             </h4>
-            <div key={section.title}>
+            <div>
               <div className="restaurant-choose__dish ">
-                {section.itemUuids.map(itemUuid => {
+                {section.itemUuids.map(itemUuid  => {
                   return (
                     <MenuCard
                       key={itemUuid}

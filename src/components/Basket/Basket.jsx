@@ -2,7 +2,6 @@ import React from "react";
 import "./Basket.css";
 
 export function Basket(props) {
-  {console.log(props.orders)}
   let sum = 0;
   return (
     <div className="basket">
@@ -16,7 +15,7 @@ export function Basket(props) {
               ></path>
             </svg>
             <span className="basket__order-amount">Ваш заказ</span>
-            <a href="#" onClick={() => props.close(false)}>
+            <button onClick={() => props.close(false)}>
               <svg
                 width="24px"
                 height="24px"
@@ -29,12 +28,12 @@ export function Basket(props) {
                   fill="#1F1F1F"
                 ></path>
               </svg>
-            </a>
+            </button>
           </div>
 
           <div className="basket__main">
               {props.orders.map((order)=> {
-                sum += order.price;
+                sum += order.nameDish.price;
               return(
                   <div className="basket__choose">
                     <select className="basket__select">
@@ -51,11 +50,14 @@ export function Basket(props) {
                       <option>10</option>
                     </select>
 
-                    <span className="basket__dish">{order.title}</span>
-                    <p>{props.orders.map((order)=> {
-                     return  order.count
-                    })}</p>
-                  <span className="basket__price">{order.price / 100},00грн.</span>
+                    <span className="basket__dish">{order.nameDish.title}</span>
+                    <p>
+                      {order.count}
+                    {/*{props.orders.map((order)=> {*/}
+                    {/* return  orders.count;*/}
+                    {/*})}*/}
+                    </p>
+                  <span className="basket__price">{order.nameDish.price / 100},00грн.</span>
                   </div>
               )
             })}

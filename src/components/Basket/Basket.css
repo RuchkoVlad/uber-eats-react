@@ -17,6 +17,12 @@
   z-index: 10;
 }
 
+button  {
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
 .basket__header {
   min-height: 71px;
   display: flex;

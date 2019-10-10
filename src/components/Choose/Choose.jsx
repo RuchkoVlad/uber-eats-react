@@ -46,11 +46,10 @@ export class Choose extends React.Component {
                                 .filter((restaurant) => restaurant.title.toLowerCase().includes(this.state.searchValue) ||
                                     this.searchInCategories(restaurant)
                                 )
-                                .map(restaurant => {
+                                .map(restaurant  => {
                                     return (
-                                        <Link to="/restaurant" className="choose__router-link">
+                                        <Link key={restaurant.uuid} to="/restaurant" className="choose__router-link">
                                             <Card
-                                                key={restaurant.uuid}
                                                 title={restaurant.title}
                                                 categories={restaurant.categories}
                                                 priceBucket={restaurant.priceBucket}
