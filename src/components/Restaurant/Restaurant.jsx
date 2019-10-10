@@ -9,7 +9,7 @@ export function Restaurant(props) {
     <div>
       <PresentationCard />
       <RestaurantNavigation />
-      <RestaurantChoose orders={props.orders} setOrders={props.setOrders}/>
+      <RestaurantChoose orders={props.orders} setOrders={props.setOrders} />
     </div>
   );
 }

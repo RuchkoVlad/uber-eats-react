@@ -32,43 +32,44 @@ export function Basket(props) {
           </div>
 
           <div className="basket__main">
-              {props.orders.map((order)=> {
-                sum += order.nameDish.price;
-              return(
-                  <div className="basket__choose">
-                    <select className="basket__select">
-                      <option>Удалить</option>
-                      <option selected>1</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                      <option>5</option>
-                      <option>6</option>
-                      <option>7</option>
-                      <option>8</option>
-                      <option>9</option>
-                      <option>10</option>
-                    </select>
+            {props.orders.map(order => {
+              sum += order.nameDish.price;
+              return (
+                <div className="basket__choose">
+                  {/*<select className="basket__select">*/}
+                  {/*  <option>Удалить</option>*/}
+                  {/*  <option selected value={1}>1</option>*/}
+                  {/*  <option value={2}>2</option>*/}
+                  {/*  <option value={3}>3</option>*/}
+                  {/*  <option value={4}>4</option>*/}
+                  {/*  <option value={5}>5</option>*/}
+                  {/*  <option value={6}>6</option>*/}
+                  {/*  <option value={7}>7</option>*/}
+                  {/*  <option value={8}>8</option>*/}
+                  {/*  <option value={9}>9</option>*/}
+                  {/*  <option value={10}>10</option>*/}
+                  {/*</select>*/}
 
-                    <span className="basket__dish">{order.nameDish.title}</span>
-                    <p>
-                      {order.count}
+                  <span className="basket__dish">{order.nameDish.title}</span>
+                  <p>
+                    {order.count}
                     {/*{props.orders.map((order)=> {*/}
                     {/* return  orders.count;*/}
                     {/*})}*/}
-                    </p>
-                  <span className="basket__price">{order.nameDish.price / 100},00грн.</span>
-                  </div>
-              )
+                  </p>
+                  <span className="basket__price">
+                    {order.nameDish.price * order.count / 100},00грн.
+                  </span>
+                </div>
+              );
             })}
-
           </div>
         </div>
         <div className=" basket__payment">
           <div className="basket__amount-dishes">{props.orders.length}</div>
           <span className="basket__next-step">Далее: оплата</span>
           <span className="basket__price basket__price--payment">
-            {sum / 100},00грн.
+            {/*{sum / 100},00грн.*/}
           </span>
         </div>
       </div>

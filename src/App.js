@@ -15,10 +15,18 @@ function App() {
     <>
       <Router>
         <Header open={setBasket} />
-        {clickBasket && <Basket close={setBasket} orders={orders} setOrders={setOrders}/>}
+        {clickBasket && (
+          <Basket close={setBasket} orders={orders} setOrders={setOrders} />
+        )}
         <ScrollToTop>
           <Route path="/" exact component={Choose} />
-          <Route path="/restaurant" exact component={() => <Restaurant orders={orders} setOrders={setOrders}/> } />
+          <Route
+            path="/restaurant"
+            exact
+            component={() => (
+              <Restaurant orders={orders} setOrders={setOrders} />
+            )}
+          />
         </ScrollToTop>
       </Router>
       <Footer />

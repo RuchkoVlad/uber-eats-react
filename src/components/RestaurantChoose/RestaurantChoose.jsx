@@ -14,7 +14,7 @@ export function RestaurantChoose(props) {
             </h4>
             <div>
               <div className="restaurant-choose__dish ">
-                {section.itemUuids.map(itemUuid  => {
+                {section.itemUuids.map(itemUuid => {
                   return (
                     <MenuCard
                       key={itemUuid}
